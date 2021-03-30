@@ -430,3 +430,72 @@
         line-height: normal;
         text-align: center;
       }
+    
+@media only screen and (max-width: 1024px){
+  .container{
+    padding-left: 3em;
+    font-size: 75%;
+  }
+  .second-section{
+    height: 100%;
+  }
+
+  .img-empresas img{
+    width: 90%;
+  }
+
+  .third-section{
+    height: 100%;
+  }
+  .square-texts{
+    min-width: 90%;
+    width: 90%;
+    font-size: 80%;
+  }
+
+  .fourth-section > div:first-child {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 760px){
+  .links-header{
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .link-icon, .link-text{
+    width: auto;
+  }
+
+  .link-icon a, .link-text a{
+    margin-right: .5em;
+  }
+  .second-section div:first-child{
+    display: flex;
+    flex-direction: column;
+  }
+  .conteudo{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-capture{
+    max-width: 80%;
+  }
+
+  .button-so-mobile a{
+    padding: .5em 1em;
+    font-size: 80%;
+  }
+
+  .square{
+    width: 45%;
+    padding-bottom: 80%;
+  }
+
+  .fourth-section div:first-child, .fourth-section div:last-child{
+    max-width: 80%;
+    padding: 1em 0;
+  }
+}
